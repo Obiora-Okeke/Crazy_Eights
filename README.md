@@ -22,11 +22,15 @@ toString() method:
 
 --Deck.java--
 Deck() method:
+
     - created empty array with 52 spaces
+    
     - then created each card for the deck with nested for loops
 
 deal() method:
+
     - shows top card 
+    
     - moves top variable to the next card
 
 canDeal() method:
