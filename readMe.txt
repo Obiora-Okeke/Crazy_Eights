@@ -1,5 +1,4 @@
 NAME: Obiora Okeke
-UNI: oio2105
 
 --Card.java--
 getSuit() method:
