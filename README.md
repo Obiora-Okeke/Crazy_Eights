@@ -5,14 +5,19 @@ NAME: Obiora Okeke
 
 --Card.java--
 getSuit() method:
+
     - returns the card's suit
 
 getRank() method:
+
     - returns the card's rank
 
 toString() method:
+
     - adujsts the special ranks(1,11,12,13) to their proper names(Ace, Jack, Queen, King)
+    
     - adjusts the suits to their whole names (Spades, Hearts, Clubs, Diamonds)
+    
     - Then returns readable string
 
 --Deck.java--
