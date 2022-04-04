@@ -4,6 +4,7 @@ This is the game Crazy Eights
 NAME: Obiora Okeke
 
 --Card.java--
+
 getSuit() method:
 
     - returns the card's suit
@@ -20,7 +21,9 @@ toString() method:
     
     - Then returns readable string
 
+
 --Deck.java--
+
 Deck() method:
 
     - created empty array with 52 spaces
@@ -34,28 +37,35 @@ deal() method:
     - moves top variable to the next card
 
 canDeal() method:
+
     - returns true provided there is a card left in the deck to deal
+    
     - if top is on the last card, it returns false
 
 shuffle() method:
+
     - Converts the deck to an arraylist
     - Shuffles the deck 5 times 
     - converts the deck back to an array
     - sets top variable to the top of the deck
 
 toString() method:
+
     - prints out each card in the deck in a user friendly way
 
 
-
 --Player.java--
+
 Player() method:
+
     - Initializes new instance of Player class
 
 addCard(Card c) Method:
+
     - adds the card that was passed as a parameter to the player's hand.
 
 playsTurn() Method:
+
     - Runs until the player chooses a card (I check to see if the card is valid in the Game.java file)
     - prints out players deck
     - tells player to choose a card or type 100 to draw from deck
@@ -63,15 +73,22 @@ playsTurn() Method:
     - returns chosen card
 
 getHand() Method:
+
     - returns player's hand that's an arraylist
 
 handToString() Method:
+
     - Returns a printable string representing the player's hand
 
+
 --Game.java--
+
 ***Helper methods are listed last***
+
 Game() Method:
+
     - Shuffles card
+    
     - Deals the first card
 
 play() Method:
